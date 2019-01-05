@@ -1,0 +1,24 @@
+<?php
+    session_start();
+    if(!isset($_SESSION["session_accountname"]) && !isset($_SESSION["session_id"])){
+        header("location: /PearlBlue/login.php");
+    }
+    else{
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="60">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="/PearlBlue/images/logo.png">
+    <title>Pearl Blue Water Refilling Station</title>
+</head>
+<body>
+    <center><img src="/PearlBlueWRS/cashier/OrderReceipt.png" width="90%" height=auto></center>
+</body>
+</html>
+<?php
+    }
+?>

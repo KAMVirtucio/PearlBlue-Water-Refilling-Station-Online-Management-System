@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    background: url("/PearlBlueWRS/images/loginbackground.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#loginContentContainer{
+    margin-top: 7.5%;
+    text-align: center;
+    color: black;
+}
+#loginContent{
+    align-self: center;
+    padding-right: 30%;
+    padding-left: 30%;
+}
+#loginDetails{
+    border: 1px solid #005db4;
+    background-color: rgba(255, 255, 255, 0.925);
+    border-radius: 10px;
+    padding: 5%;
+}
+#loginlogo{
+    width: 20%;
+}
+#welcomeAdminContainer{
+    margin-top: 2%;
+}
+@font-face{
+    font-family: Futura Hv;
+    src: url("/PearlBlueWRS/fonts/Futura Heavy font.ttf");
+}
+#welcomeAdmin{
+    font-family: Futura Hv;
+    font-size: 18pt;
+}
+#pleasefillout{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10pt;
+}
+#formLogin{
+    margin-top: 10%;
+}
+#usernameContainer{
+    margin: 1.5%;
+}
+#username{
+    width: 80%;
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid #005db4;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+}
+#username:hover{
+    background-color: #14b7df71;
+}
+#passwordContainer{
+    margin: 1.5%;
+}
+#password{
+    width: 80%;
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid #005db4;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+}
+#password:hover{
+    background-color: #14b7df71;
+}
+#showpasswordContainer{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+    text-align: left;
+    margin-left: 40px;
+}
+#submitbuttonContainer{
+    margin: 1%;
+}
+#submitbutton{
+    width: 35%;
+    padding: 1%;
+    border-radius: 5px;
+    border: 1px solid #14b6df;
+    background-color: #14b6df;
+    color: white;
+    font-family: Futura Hv;
+    font-size: 14pt;
+}
+#submitbutton:hover{
+    background-color: #14b7df81;
+    color: black;
+}

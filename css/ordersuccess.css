@@ -1,0 +1,296 @@
+body{
+    margin: 0;
+}
+#headerContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: right;
+    width: 100%;
+}
+@font-face{
+    font-family: Futura Hv;
+    src: url("/PearlBlueWRS/fonts/Futura Heavy font.ttf");
+}
+#headerBtnShow{
+    z-index: 1;
+    top: 0;
+}
+#headerBtn{
+    display: block;
+}
+#option{
+    margin: 1% 1% 0 0;
+    width: 5%;
+}
+#option:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+#optionHide{
+    margin: 1% 1% 0 0;
+    width: 5%;
+}
+#optionHide:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.headerTab{
+    font-family: Futura Hv;
+}
+#header{
+    display: block;
+    text-align: left;
+    z-index: -1;
+    background-color: #171717;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    overflow: hidden;
+    transition: 0.1s;
+    padding-top: 5%;
+}
+#hideBtn{
+    z-index: 1;
+    display: none;
+    color: white;
+    text-decoration: none;
+    font-size: 265%;
+    text-align: right;
+}
+#hideBtn:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+#header a{
+    text-decoration: none;
+}
+.navbar{
+    display: inline;
+}
+#loginTabicon{
+    width: 6%;
+}
+#loginTabCont{
+    padding: 1%;
+}
+#loginTabCont:hover{
+    background-color: #0096ff;
+    cursor: pointer;
+}
+#loginTab{
+    font-size: 20pt;
+    color: white;
+}
+#loginTab:hover{
+    color: rgb(247, 228, 228);
+}
+#homeTabicon{
+    width: 6%;
+}
+#homeTabCont{
+    padding: 1%;
+}
+#homeTabCont:hover{
+    background-color: #0096ff;
+    cursor: pointer;
+}
+#homeTab{
+    font-size: 20pt;
+    color: white;
+}
+#homeTab:hover{
+    color: rgb(247, 228, 228);
+}
+#orderTabicon{
+    width: 6%;
+}
+#orderTabCont{
+    padding: 1%;
+}
+#orderTabCont:hover{
+    background-color: #0096ff;
+    cursor: pointer;
+}
+#orderTab{
+    font-size: 20pt;
+    color: white;
+}
+#orderTab:hover{
+    color: rgb(247, 228, 228);
+}
+#aboutTabicon{
+    width: 6%;
+}
+#aboutTabCont{
+    padding: 1%;
+}
+#aboutTabCont:hover{
+    background-color: #0096ff;
+    cursor: pointer;
+}
+#aboutTab{
+    font-size: 20pt;
+    color: white;
+}
+#aboutTab:hover{
+    color: rgb(247, 228, 228);
+}
+#bottomSlider{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.bottom-slide{
+    display: inline;
+}
+#copyrightText{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 100%;
+    color: white;
+}
+#loginAdmin{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#loginAdmin:hover{
+    color: #14b6df;
+}
+#bannerContainer{
+    background-image: url("/PearlBlueWRS/images/logobanner.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#banner{
+    text-align: center;
+}
+#logo{
+    width: 40%;
+    padding: 3% 0 3% 0;
+    transition: 0.3s;
+}
+#orderSuccessMessageContainer{
+    text-align: center;
+}
+#orderSuccessMessage{
+    align-self: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+#SuccessContainer{
+    margin-top: 5%;
+    border: 1px solid #005db4;
+    border-radius: 5px;
+    padding: 5%;
+}
+#imageSuccess{
+    width: 10%;
+}
+#completeSuccess{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+}
+#txtSuccessContainer{
+    margin-top: 2.5%;
+}
+@font-face{
+    font-family: Futura Md;
+    src: url("/PearlBlueWRS/fonts/futura medium bt.ttf");
+}
+#txtSuccess{
+    font-family: Futura Md;
+    font-size: 21pt;
+    font-weight: bolder;
+}
+#buttonPlaceanotherContainer{
+    margin: 2%;
+}
+#buttonPlaceanother{
+    padding: 1%;
+    width: 55%;
+    border-radius: 5px;
+    border: 1px solid #14b6df;
+    background-color: #14b6df;
+    font-family: Futura Hv;
+    font-size: 16pt;
+    color: white;
+}
+#buttonPlaceanother:hover{
+    background-color: #14b7df5d;
+    color: black;
+}
+#buttonbackHomepageContainer{
+    margin: 2%;
+}
+#buttonbackHomepage{
+    padding: 1%;
+    width: 55%;
+    border-radius: 5px;
+    border: 1px solid #14b6df;
+    background-color: #14b6df;
+    font-family: Futura Hv;
+    font-size: 16pt;
+    color: white;
+}
+#buttonbackHomepage:hover{
+    background-color: #14b7df5d;
+    color: black;
+}
+footer{
+    z-index: -1;
+    color: white;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    margin-top: 5%;
+    padding: 3% 3% 3% 3%;
+    background-color: black;
+    overflow: hidden;
+}
+#contactusHeader{
+    font-family: Futura Hv;
+    font-size: 16pt;
+}
+.footericon{
+    width: 11.25pt;
+}
+#contactusAddress{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+}
+#contactusCellphone{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+}
+#contactusFacebook{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+}
+#textownershipCont{
+    padding-top: 3%;
+}
+#ownershipHeader{
+    font-family: Futura Hv;
+    font-size: 16pt;
+}
+#ownershipCopyright{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+}
+#ownershipDeveloper{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+}
+#DeveloperNames{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7pt;
+    color: lightsteelblue;
+}

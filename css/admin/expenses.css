@@ -1,0 +1,162 @@
+body{
+    margin: 0;
+}
+.linknavbar{
+    text-decoration: none;
+}
+.inlineDesign{
+    display: inline;
+}
+#navbarContainer{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 25%;
+}
+#navbarBox{
+    width: 100%;
+}
+#navbar{
+    background-color: rgb(34, 32, 32);
+    width: 100%;
+    height: 100%;
+}
+@font-face{
+    font-family: Futura Hv;
+    src: url("/PearlBlueWRS/fonts/Futura Heavy font.ttf");
+}
+#logoPearlBlueContainer{
+    padding: 5%;
+    text-align: center;
+}
+#logoPearlBlue{
+    width: 35%;
+}
+#dashboardlink{
+    color: white;
+}
+#dashboardContainer{
+    padding: 4%;
+}
+#dashboardContainer:hover{
+    background-color: #005db4;
+}
+#dashboardText{
+    font-family: Futura Hv;
+    font-size: 26.25px;
+}
+#inventorylink{
+    color: white;
+}
+#inventoryContainer{
+    padding: 4%;
+}
+#inventoryContainer:hover{
+    background-color: #005db4;
+}
+#inventoryText{
+    font-family: Futura Hv;
+    font-size: 26.25px;
+}
+#salesandexpenseslink{
+    color: white;
+}
+#salesandexpensesContainer{
+    padding: 4%;
+}
+#salesandexpensesContainer:hover{
+    background-color: #005db4;
+}
+#salesandexpensesText{
+    font-family: Futura Hv;
+    font-size: 26.25px;
+}
+#expenseslink{
+    text-decoration: none;
+    color: white;
+}
+#expensesIcon{
+    width: 30px;
+}
+#reportslink{
+    color: white;
+}
+#reportsContainer{
+    padding: 4%;
+}
+#reportsContainer:hover{
+    background-color: #005db4;
+}
+#reportsText{
+    font-family: Futura Hv;
+    font-size: 26.25px;
+}
+#employeeslink{
+    color: white;
+}
+#employeesContainer{
+    padding: 4%;
+}
+#employeesContainer:hover{
+    background-color: #005db4;
+}
+#employeesText{
+    font-family: Futura Hv;
+    font-size: 26.25px;
+}
+#patronslink{
+    color: white;
+}
+#patronsContainer{
+    padding: 4%;
+}
+#patronsContainer:hover{
+    background-color: #005db4;
+}
+#patronsText{
+    font-family: Futura Hv;
+    font-size: 26.25px;
+}
+#logoutlink{
+    color: white;
+}
+#logoutContainer{
+    margin-top: 5%;
+    padding: 4%;
+}
+#logoutContainer:hover{
+    background-color: #005db4;
+}
+#logoutText{
+    font-family: Futura Hv;
+    font-size: 26.25px;
+}
+@font-face{
+    font-family: Bebas;
+    src: url("/PearlBlueWRS/fonts/BebasNeue.otf");
+}
+#dashboardTextCont{
+    z-index: 1;
+    padding-top: 1%;
+    padding-left: 30%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #005db4;
+}
+#dashboardTextTop{
+    font-family: Bebas;
+    font-size: 36pt;
+}
+#salesprogressContainer{
+    margin-top: 7%;
+    margin-left: 25%;
+    text-align: center;
+}
+#salesprogressPic{
+    width: 800px;
+}

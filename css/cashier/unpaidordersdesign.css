@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+}
+.linknavbar{
+    text-decoration: none;
+}
+.inlineDesign{
+    display: inline;
+}
+#navbarContainer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25%;
+}
+#navbarBox{
+    width: 100%;
+}
+#navbar{
+    background-color: rgb(34, 32, 32);
+    width: 100%;
+    height: 100%;
+}
+@font-face{
+    font-family: Futura Hv;
+    src: url("/PearlBlue/fonts/Futura Heavy font.ttf");
+}
+#logoPearlBlueContainer{
+    padding: 5%;
+    text-align: center;
+}
+#logoPearlBlue{
+    width: 35%;
+}
+#dashboardlink{
+    color: white;
+}
+#dashboardContainer{
+    padding: 4%;
+}
+#dashboardContainer:hover{
+    background-color: #005db4;
+}
+#dashboardText{
+    font-family: Futura Hv;
+    font-size: 26.25px;
+}
+#walkinlink{
+    color: white;
+}
+#walkinContainer{
+    padding: 4%;
+}
+#walkinContainer:hover{
+    background-color: #005db4;
+}
+#walkinText{
+    font-family: Futura Hv;
+    font-size: 22px;
+}
+#paidlink{
+    color: white;
+}
+#paidContainer{
+    padding: 4%;
+}
+#paidContainer:hover{
+    background-color: #005db4;
+}
+#paidText{
+    font-family: Futura Hv;
+    font-size: 23px;
+    color:white;
+}
+#unpaidlink{
+    color: white;
+}
+#unpaidContainer{
+    padding: 4%;
+    margin-left: -5px;
+}
+#unpaidContainer:hover{
+    background-color: #005db4;
+}
+#unpaidText{
+    font-family: Futura Hv;
+    font-size: 22px;
+    color:white;
+
+}
+#logoutlink{
+    color: white;
+}
+#logoutContainer{
+    margin-top: 40%;
+    padding: 4%;
+}
+#logoutContainer:hover{
+    background-color: #005db4;
+}
+#logoutText{
+    font-family: Futura Hv;
+    font-size: 26.25px;
+}
+@font-face{
+    font-family: Bebas;
+    src: url("/PearlBlue/fonts/BebasNeue.otf");
+}
+
+#dashboardTextCont{
+    margin-top: 1%;
+    margin-left: 30%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+}
+#dashboardTextTop{
+    font-family: Bebas;
+    font-size: 36pt;
+}
+#dashboardTextTop{
+    font-family: Bebas;
+    font-size: 36pt;
+}
+
+#inventoryCont{
+    margin-left: 30%;
+    margin-right: 3%;
+    text-align: center;
+     
+}
+#inventoryTable{
+    border-radius: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 8.5pt;
+    border-radius: 5px;
+}
+#inventoryTable>thead{
+    font-weight: bolder;
+}
+table, th, td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 2px;
+    width: 800px;
+    text-align: center;
+}
+thead{
+    font-weight: bold;
+}
+input[type="text"]{
+    padding: 5px;
+ margin-left:70%;
+ margin-bottom: 2%;
+}
+
+button[type="submit"]{
+    border-radius: 1px;
+    border: 1px solid gray;
+    padding:6px; 
+    margin-left: -6px;
+    width: 30px;
+}
+.button {
+    background-color: #337ab7;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button:hover{
+    background-color: #2e6da4;
+    cursor: pointer;
+}
+
+.button2 {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button2:hover{
+     background-color: #c62f3e;
+     cursor: pointer;
+}
+
+.button3 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button3:hover{
+     background-color: #58992d;
+     cursor: pointer;
+}

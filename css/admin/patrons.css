@@ -1,0 +1,274 @@
+body{
+    margin: 0;
+}
+.linknavbar{
+    text-decoration: none;
+}
+.inlineDesign{
+    display: inline;
+}
+#navbarContainer{
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 25%;
+}
+#navbarBox{
+    width: 100%;
+}
+#navbar{
+    background-color: rgb(34, 32, 32);
+    width: 100%;
+    height: 100%;
+}
+@font-face{
+    font-family: Futura Hv;
+    src: url("/PearlBlueWRS/fonts/Futura Heavy font.ttf");
+}
+#logoPearlBlueContainer{
+    padding: 5%;
+    text-align: center;
+}
+#logoPearlBlue{
+    width: 35%;
+}
+#dashboardlink{
+    color: white;
+}
+#dashboardContainer{
+    padding: 4%;
+}
+#dashboardContainer:hover{
+    background-color: #005db4;
+}
+#dashboardText{
+    font-family: Futura Hv;
+    font-size: 26.25px;
+}
+#inventorylink{
+    color: white;
+}
+#inventoryContainer{
+    padding: 4%;
+}
+#inventoryContainer:hover{
+    background-color: #005db4;
+}
+#inventoryText{
+    font-family: Futura Hv;
+    font-size: 26.25px;
+}
+#salesandexpenseslink{
+    color: white;
+}
+#salesandexpensesContainer{
+    padding: 4%;
+}
+#salesandexpensesContainer:hover{
+    background-color: #005db4;
+}
+#salesandexpensesText{
+    font-family: Futura Hv;
+    font-size: 26.25px;
+}
+#expenseslink{
+    text-decoration: none;
+    color: white;
+}
+#expensesIcon{
+    width: 30px;
+}
+#reportslink{
+    color: white;
+}
+#reportsContainer{
+    padding: 4%;
+}
+#reportsContainer:hover{
+    background-color: #005db4;
+}
+#reportsText{
+    font-family: Futura Hv;
+    font-size: 26.25px;
+}
+#employeeslink{
+    color: white;
+}
+#employeesContainer{
+    padding: 4%;
+}
+#employeesContainer:hover{
+    background-color: #005db4;
+}
+#employeesText{
+    font-family: Futura Hv;
+    font-size: 26.25px;
+}
+#patronslink{
+    color: white;
+}
+#patronsContainer{
+    padding: 4%;
+}
+#patronsContainer:hover{
+    background-color: #005db4;
+}
+#patronsText{
+    font-family: Futura Hv;
+    font-size: 26.25px;
+}
+#logoutlink{
+    color: white;
+}
+#logoutContainer{
+    margin-top: 5%;
+    padding: 4%;
+}
+#logoutContainer:hover{
+    background-color: #005db4;
+}
+#logoutText{
+    font-family: Futura Hv;
+    font-size: 26.25px;
+}
+@font-face{
+    font-family: Bebas;
+    src: url("/PearlBlueWRS/fonts/BebasNeue.otf");
+}
+#dashboardTextCont{
+    z-index: 1;
+    padding-top: 1%;
+    padding-left: 30%;
+    padding-right: 5%;
+    padding-bottom: 1%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #005db4;
+}
+#dashboardTextTop{
+    font-family: Bebas;
+    font-size: 36pt;
+}
+#employeetableContainer{
+    margin-top: 12%;
+    margin-left: 25%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+}
+#employee>table>thead{
+    text-align: center;
+    font-weight: bold;
+}
+#employee>table>thead>tr>td, #employee>table>tbody>tr>td{
+    padding: 0.2%;
+    text-align: center;
+}
+#employee>table>thead>tr>td{
+    background-color: rgb(166, 166, 241);
+    color: white;
+}
+#employee>table>thead>tr>td:hover{
+    color: black;
+}
+#employee>table>tbody>tr>td:hover{
+    background-color: #89c6ff;
+    color: white;
+}
+#employeeTable{
+    width: 100%;
+}
+#submitAdd{
+    padding: 1%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+    background-color: white;
+    border: 1px solid #005db4;
+    border-radius: 5px;
+}
+#submitAdd:hover{
+    background-color: #0084ff42;
+    cursor: pointer;
+}
+#viewEyeIcon{
+    width: 12pt;
+}
+#searchfilterContainer{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 6.3%;
+    padding-left: 30%;
+    background-color: white;
+    border-bottom: 1px solid #005db4;
+}
+#searchfilter{
+    padding: 1%;
+}
+.inlinesearchfilter{
+    display: inline;
+}
+#categoryFilter{
+    padding: 0.5%;
+    width: 15%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+    border-radius: 5px;
+    border: 1px solid #005db4;
+}
+#searchContainer{
+    margin-left: 25%;
+}
+#searchKey{
+    padding: 0.5%;
+    width: 30%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+    border-radius: 5px;
+    border: 1px solid #005db4;
+}
+#submitSearch{
+    padding: 0.5%;
+    width: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+    border-radius: 5px;
+    border: 1px solid #005db4;
+}
+#submitSearch:hover{
+    background-color: #0084ff7e;
+    cursor: pointer;
+}
+#submitFilter{
+    padding: 0.5%;
+    width: 5%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12pt;
+    border-radius: 5px;
+    border: 1px solid #005db4;
+}
+#searchIcon{
+    width: 11pt;
+}
+#addButtonContainer{
+    vertical-align: -10px;
+}
+#addButton{
+    background-color: white;
+    border: none;
+}
+#addButton:hover{
+    cursor: pointer;
+}
+#viewSubmit{
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+}
+#viewSubmit:hover{
+    transition: 0.5s ease-in-out;
+    border-radius: 500px;
+    background-color: #00ff62af;
+    cursor: pointer;
+}
